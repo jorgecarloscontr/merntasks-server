@@ -8,6 +8,7 @@ const conectarDB = async () => {
             useUnifiedTopology: true,
             useFindAndModify: false
         });
+        console.log('conected');
     }catch (error){
         console.log(error);
         process.exit(1);
